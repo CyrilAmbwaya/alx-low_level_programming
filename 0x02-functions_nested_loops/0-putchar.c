@@ -15,4 +15,4 @@ _putchar(string[n]);
 }
 _putchar(10);
 return (0);
-}	
+}
