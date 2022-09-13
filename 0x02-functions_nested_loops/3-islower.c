@@ -1,9 +1,11 @@
 #include "main.h"
 /**
-* _islower - function
+*_islower - function
 *
-* Return: Get 1 if c is uppercase,
-* get 0 if not
+*Return: Get 1 if c is uppercase,
+*get 0 if not
+*
+*@c: Evaluated character
 */
 int _islower(int c)
 {
