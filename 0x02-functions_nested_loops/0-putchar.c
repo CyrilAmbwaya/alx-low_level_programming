@@ -1,16 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include "main.h"
 /**
-  *main - Entry point
+  * main - Entry point
   *
-  *Return: Always 0 (Success)
+  * Return: Always 0 (Success)
   */
 int main(void)
 {
-char str[] = "_putchar";
-int ch;
-for (ch = 0; ch < 8; ++ch)
-_putchar(str[ch]);
-_putchar('\n');
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
 return (0);
 }
