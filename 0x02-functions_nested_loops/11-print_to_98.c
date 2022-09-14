@@ -1,13 +1,43 @@
-#include "main.h"
+include <stdio.h>
 /**
-* add - function to call
+* print_to_98 - function to call
 *
-* @a: parameter 1
-* @b: parameter 2
+* @n: parameter
 *
-* Return: 0 (Success)
+* Return: natural numbers
 */
-int add(int a, int b)
+void print_to_98(int n)
 {
-return (a + b);
+int upper = 98;
+if (n > upper)
+{
+while (n >= upper)
+{
+if (n != upper)
+{
+printf("%d%s", n, ", ");
+}
+else
+{
+printf("%d", n);
+}
+n--;
+}
+}
+else
+{
+while (n <= upper)
+{
+if (n != upper)
+{
+printf("%d%s", n, ", ");
+}
+else
+{
+printf("%d", n);
+}
+n++;
+}
+}
+putchar(10);
 }
