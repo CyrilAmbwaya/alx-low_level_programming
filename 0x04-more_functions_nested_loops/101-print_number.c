@@ -14,7 +14,6 @@ n2 = -n;
 else
 {
 n2 = n;
-/*obtain basis*/
 }
 number = n2;
 while (number > 9)
@@ -22,7 +21,6 @@ while (number > 9)
 number = number / 10;
 base10 = base10 * 10;
 }
-/*decompose base 10*/
 number = n2;
 while (base10 > 1)
 {
