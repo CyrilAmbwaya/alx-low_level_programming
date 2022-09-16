@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_number - Print integer
  * @n: number
@@ -17,12 +18,14 @@ else
 n2 = n;
 }
 number = n2;
+
 while (number > 9)
 {
 number = number / 10;
 base10 = base10 * 10;
 }
 number = n2;
+
 while (base10 > 1)
 {
 _putchar((number / base10) + '0');
