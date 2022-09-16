@@ -19,4 +19,9 @@ _putchar(49);
 _putchar(n - reset);
 n++;
 }
+n = 48;
+reset = 0;
+l++;
+_putchar(10);
+}
 }
