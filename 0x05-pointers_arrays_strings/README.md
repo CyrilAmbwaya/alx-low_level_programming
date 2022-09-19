@@ -1,1 +1,1 @@
-3-puts.c
+main.c
