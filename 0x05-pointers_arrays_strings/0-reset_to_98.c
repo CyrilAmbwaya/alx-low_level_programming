@@ -1,6 +1,5 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
-
 /**
  * reset_to_98 - check pointer to an int, updates value to 98.
  *
