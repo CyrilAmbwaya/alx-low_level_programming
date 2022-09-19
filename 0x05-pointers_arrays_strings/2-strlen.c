@@ -9,11 +9,8 @@
 
 int _strlen(char *s)
 {
-int conta = 0, i;
-while (*(s + i) != '\0')
-{
-i++;
-conta++;
-}
-return (conta);
+int count = 0;
+while (*(s + count) != '\0')
+count++;
+return (count);
 }
