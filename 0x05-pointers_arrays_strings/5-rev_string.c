@@ -2,6 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+
+
 /**
 *rev_string - function
 *@s: char parameter
@@ -16,8 +18,11 @@ int i = 0;
 while (s[index] != '\0')
 {
 t[i] = s[index];
+
 index--;
 i++;
+
 }
 strcpy(p,t);
+
 }
