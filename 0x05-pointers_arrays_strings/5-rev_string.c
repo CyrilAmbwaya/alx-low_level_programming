@@ -1,28 +1,25 @@
 #include "main.h"
-#include <string.h>
-#include <stdlib.h>
-
-
-
 /**
-*rev_string - function
-*@s: char parameter
+* rev_string - function
+*
+* @s: pointer of parameter
 */
-
 void rev_string(char *s)
 {
-char *p = s;
-char t [strlen(s)];
-int index = strlen(s) ;
-int i = 0;
-while (s[index] != '\0')
+char temp;
+int length = 0;
+int b = 0;
+int e;
+while (s[length] != '\0')
+length++;
+e = length - 1;
+length /= 2;
+while (length--)
 {
-t[i] = s[index];
-
-index--;
-i++;
-
+temp = s[b];
+s[b] = s[e];
+s[e] = temp;
+b++;
+e--;
 }
-strcpy(p,t);
-
 }
