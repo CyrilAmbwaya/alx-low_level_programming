@@ -18,6 +18,4 @@ putchar(str[i]);
 
 }
 putchar('\n');
-
-
-
+}
