@@ -1,1 +1,1 @@
-100-set_string.c
+7-print_chessboard.c
