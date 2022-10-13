@@ -1,5 +1,5 @@
-#include "function_pointers.h"
-#include <stdio.h>
+#include "function_pointers.hi"
+#include <stddef.h>
 /**
  * print_name - prints name using pointer to the function
  * @name: string to be add
