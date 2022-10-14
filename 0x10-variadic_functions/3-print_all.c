@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_all - prints 
+ * print_all - prints
  * @format: list types of args passed to function
  */
 
