@@ -1,20 +1,7 @@
-<<<<<<< HEAD
-#ifndef LIST_H
-#define LIST_H
-#include<stdlib.h>
-#include<stdio.h>
-#include<string.h>
-
-/**
- * struct listint_s - singly linked list
- * @n: int value stored
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- */
-=======
 #ifndef LISTS_H
 #define LISTS_H
+
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -24,8 +11,6 @@
  * Description: singly linked list node structure
  * for Holberton project
  */
-
->>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e
 typedef struct listint_s
 {
 	int n;
@@ -46,12 +31,6 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index);
 listint_t *reverse_listint(listint_t **head);
 size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
-<<<<<<< HEAD
-int is_visited(const listint_t *, const listint_t **, int);
 listint_t *find_listint_loop(listint_t *head);
-=======
-listint_t *find_listint_loop(listint_t *head);
-int _putchar(char c);
->>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e
 
 #endif
