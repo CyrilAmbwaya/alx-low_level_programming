@@ -1,6 +1,6 @@
 #include "main.h"
 
-/**
+/*
 *read_textfile - function that reads a text file and prints it to stdout
 *@filename : name of file to be read
 *@letters : number of characters to be read
@@ -8,10 +8,11 @@
 */
 
 ssize_t read_textfile(const char *filename, size_t letters)
+
 {
 int fd;
 char *buffer;
-size_t wr; /*byte read and written*/
+size_t wr;
 
 if (!filename)
 return (0);
